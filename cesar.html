@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="js/cesar.js" type="text/javascript" defer></script>
+    <title>Conversor Universal</title>
+</head>
+<body>
+    <div class="globalCesar">
+
+        <header>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Distancia</a></li>
+                        <li><a href="#">Tempo</a></li>
+                        <li><a href="#">Temperatura</a></li>
+                        <li><a href="#">Massa</a></li>
+                        <li><a href="#">Dados</a></li>
+                        <li><a href="#">Velocidade</a></li>
+                        <li><a href="#">Texto</a>
+                            <ul>
+                                <li><a href="#">Binario</a>
+                                <li><a href="cesar.html">Cesar</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>    
+            </div>
+        </header>
+
+
+        <table>
+                <tr>
+                    <td><h1>Caesar cipher.</h1></td>
+                </tr>
+            <tr>
+                <td>
+                    <form id="codificador" autocomplete="off">
+                        <input id="input-original" spellcheck="false" placeholder="Insira o texto aqui." type="text" name="text">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="resultado"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="range">
+                        <input id="range" type="range" value="7" min="0" max="26" oninput="this.nextElementSibling.value = this.value">
+                        <output>7</output>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="codificador-btn" type="button" value="CONVERTER">
+                    <input id="decodificar-check" type="checkbox">
+                </td>
+            </tr>
+          </table>
+    </div>
+</body>
+</html>

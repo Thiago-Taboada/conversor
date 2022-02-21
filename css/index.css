@@ -79,6 +79,25 @@ select{
     appearance: none;
 }
 
+article{
+    width: 70%;
+}
+
+article h2{
+    font-size: 40px;
+}
+
+article img{
+    float: left;
+    margin-right: 10px;
+}
+
+.pagArticles{
+    padding: 50px;
+    height: 100vh;
+    background-color: #eeeeee;
+    color: #333333;
+}
 /* INDEX */
 .globalIndex{
     height: 100vh;
@@ -91,7 +110,7 @@ select{
 /* TEMPERATURA */
 
 .globalTemperatura{
-    height: 500vh;
+    height: 100vh;
     background-color: #C73E52;
     color: white;
 }

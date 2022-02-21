@@ -94,7 +94,8 @@ article img{
 
 /* INDEX */
 .globalIndex{
-    height: 800px;
+    height: 100vh;
+    min-width: 1080px;
     background-color: #292b36;
     color: white;
 }
@@ -104,7 +105,8 @@ article img{
 /* TEMPERATURA */
 
 .globalTemperatura{
-    height: 800px;
+    height: 100vh;
+    min-width: 1080px;
     background-color: #C73E52;
     color: white;
 }
@@ -138,14 +140,16 @@ article img{
 /* CESAR */
 
 .globalCesar{
-    height: 800px;
+    height: 100vh;
+    min-width: 1080px;
     background-color: #5c4b7a;
     color: white;
 }
 
 .artigoCesar{
     padding: 150px 50px 50px 50px;
-    height: 500px;
+    height: 70vh;
+    min-width: 1080px;
     background-color: #eeeeee;
     color: #333333;
 }

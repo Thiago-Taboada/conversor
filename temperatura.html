@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css" type="text/css">
-    <script src="js/cesar.js" type="text/javascript" defer></script>
+    <script src="js/.js" type="text/javascript" defer></script>
     <title>Conversor Universal</title>
 </head>
 <body>
-    <div class="globalCesar">
+    <div class="globalTemperatura">
 
         <header>
             <div class="menu">
@@ -34,32 +34,39 @@
 
         <table>
             <tr>
-                <td><h1>Cifrado Cesar.</h1></td>
+                <td><h1>Temperatura.</h1></td>
             </tr>
             <tr>
                 <td>
-                    <form id="codificador" autocomplete="off">
-                        <input id="input-original" spellcheck="false" placeholder="Insira o texto aqui." type="text" >
+                    <label for="temperatura">Selecione:</label>
+
+                    <select id="temperatura" required>
+                        <option value="celcius">> Celcius</option>
+                        <option value="fahrenheit">> Fahrenheit</option>
+                        <option value="kelvin">> Kelvin</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form id="celcius" autocomplete="off">
+                        <input id="input-cel" spellcheck="false" placeholder="Insira C°" type="text">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div id="resultado"></div>
+                    <div id="out-celF">°F</div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div class="range">
-                        <input id="range" type="range" value="7" min="0" max="26" oninput="this.nextElementSibling.value = this.value">
-                        <output>7</output>
-                    </div>
+                    <div id="out-celK">K</div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input id="codificador-btn" type="button" value="CONVERTER">
-                    <input id="decodificar-check" type="checkbox">
+                    <input id="convertir-btn" type="button" value="CONVERTER">
                 </td>
             </tr>
           </table>

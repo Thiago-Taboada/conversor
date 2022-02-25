@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css" type="text/css">
-    <script src="js/.js" type="text/javascript" defer></script>
+    <script src="js/temperatura.js" type="text/javascript" defer></script>
     <title>Conversor Universal</title>
 </head>
 <body>
@@ -38,38 +38,46 @@
             </tr>
             <tr>
                 <td>
-                    <label for="temperatura">Selecione:</label>
-
-                    <select id="temperatura" required>
-                        <option value="celcius">> Celcius</option>
-                        <option value="fahrenheit">> Fahrenheit</option>
-                        <option value="kelvin">> Kelvin</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <form id="celcius" autocomplete="off">
-                        <input id="input-cel" spellcheck="false" placeholder="Insira C°" type="text">
+                    <form id="formTemperatura" autocomplete="off">
+                        <input type="text" id="celsius" name="c" placeholder="C°" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div id="out-celF">°F</div>
+                    <form id="formTemperatura" autocomplete="off">
+                        <input type="text" id="fahrenheit" name="f" placeholder="°F" value="">
+                    </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div id="out-celK">K</div>
+                    <form id="formTemperatura" autocomplete="off">
+                        <input type="text" id="kelvin" name="k" placeholder="K" value="">
+                    </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input id="convertir-btn" type="button" value="CONVERTER">
+                    <button id="convert">CONVERTER</button>
+                    <button id="clear">Limpar</button>
                 </td>
             </tr>
           </table>
     </div>
+    <div class="artigoTemperatura">
+        <article>
+            <h2>Lorem Ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tenetur cupiditate temporibus molestiae ut? Totam iste necessitatibus ad incidunt nobis, inventore, ipsum aliquam omnis mollitia maxime debitis recusandae dolor. Perspiciatis?</p>
+            <br>
+            <p>Tempor elit occaecat enim velit aute irure cillum ipsum dolore voluptate duis laborum. Nulla mollit officia tempor magna pariatur ea. Laboris anim eu in magna duis. Ipsum ex occaecat enim aliquip ex in eu mollit. Occaecat excepteur nostrud ullamco excepteur ea minim aliquip quis. Officia elit ipsum adipisicing ullamco deserunt veniam irure irure deserunt magna elit excepteur.</p>
+            <br>
+            <p>Anim amet fugiat quis ad laborum. Pariatur nostrud magna eu nisi labore. Officia laborum eiusmod exercitation eiusmod dolor irure consequat est. Exercitation fugiat exercitation ipsum duis elit veniam excepteur ad culpa anim exercitation officia reprehenderit. Nostrud do sint nulla velit eu. Proident cillum sunt dolore esse non excepteur eiusmod consectetur adipisicing ad labore ea cillum duis. Esse duis reprehenderit ut tempor qui nulla sint id.</p>
+            <br>
+            <p>Incididunt ex magna ex elit labore laboris dolore esse dolore irure proident anim amet. Ipsum cillum ad fugiat excepteur quis aute voluptate mollit mollit dolor voluptate ea proident eiusmod. Ex id mollit nostrud magna est ex proident exercitation. Occaecat ut mollit anim deserunt cillum. Veniam cillum anim do in nulla fugiat duis in. Ut esse excepteur irure excepteur eiusmod nisi anim mollit dolor quis velit minim.</p>
+            <br>
+            <p>Dolor ex amet nisi sunt irure amet proident eu laborum. Laborum pariatur mollit culpa quis dolore quis aliqua labore labore eu. Anim aliqua et sit officia. Officia adipisicing labore do sit ex sunt dolore sunt dolor cillum enim. Ullamco aliquip voluptate dolore Lorem consequat velit. Ad irure ea minim culpa do nostrud mollit voluptate laboris aliquip in deserunt amet. Laboris proident reprehenderit eu et pariatur amet aliquip est sit.</p>
+        </article>
+  </div>
 </body>
 </html>

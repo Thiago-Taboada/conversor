@@ -68,17 +68,6 @@ table{
     box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
 }
 
-select{
-    background-color: #292b36;
-    padding: 10px;
-    color: white;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    -webkit-appearance: none;
-    appearance: none;
-}
-
 article{
     width: 70%;
 }
@@ -90,6 +79,39 @@ article h2{
 article img{
     float: left;
     margin-right: 10px;
+}
+
+#convert{
+    cursor: pointer;
+    -webkit-appearance: none;
+    background:#292b36;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    width:300px;
+    height:50px;
+}
+
+#convert:hover{
+    background: #343644;
+}
+
+#clear{
+    cursor: pointer;
+    -webkit-appearance: none;
+    background:#292b36;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    width:150px;
+    height:50px;
+    float: right;
+}
+
+#clear:hover{
+    background: #343644;
 }
 
 /* INDEX */
@@ -111,28 +133,36 @@ article img{
     color: white;
 }
 
-#input-cel{
+.artigoTemperatura{
+    padding: 150px 50px 50px 50px;
+    height: 120vh;
+    min-width: 1080px;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+#celsius{
     background-color: #292b36;
     width: 540px;
     padding: 10px;
+    color: #5af7dd;
     margin-top: 10px;
-    color: white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
 
-#out-celF{
+#fahrenheit{
     background-color: #292b36;
     width: 540px;
-    color: #5af7dd;
     padding: 10px;
+    color: #5af7dd;
 }
 
-#out-celK{
+#kelvin{
     background-color: #292b36;
     width: 540px;
-    color: #5af7dd;
     padding: 10px;
+    color: #5af7dd;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
@@ -174,14 +204,14 @@ article img{
     border-bottom-right-radius: 4px;
 }
 
-.range {
+#rangeBox {
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 30px;
     
 }
 
-input[type='range'] {
+#range {
     -webkit-appearance: none;
     border-radius: 4px;
     background:#292b36;
@@ -190,7 +220,7 @@ input[type='range'] {
     height: 20px;
 }
 
-input[type='range']::-webkit-slider-thumb {
+#range::-webkit-slider-thumb {
     cursor: pointer;
     -webkit-appearance: none;
     background:white;
@@ -198,23 +228,7 @@ input[type='range']::-webkit-slider-thumb {
     width:10px;
 }
 
-input[type='button']{
-    cursor: pointer;
-    -webkit-appearance: none;
-    background:#292b36;
-    color: white;
-    font-size: 16px;
-    margin-top: 10px;
-    border-radius: 4px;
-    width:300px;
-    height:50px;
-}
-
-input[type='button']:hover{
-    background: #343644;
-}
-
-input[type='checkbox']{
+#decodificar {
     appearance: none;
     -webkit-appearance: none;
     width: 50px;
@@ -231,22 +245,22 @@ input[type='checkbox']{
     float: right;
 }
 
-input[type='checkbox']:after{
+#decodificar:after{
     content: "> Codificando";
     color: #fff;
     font-size: 16px;
 
 }
 
-input[type='checkbox']:hover{
+#decodificar:hover{
     background-color: #343644;
 }
 
-input[type='checkbox']:checked{
+#decodificar:checked{
     background-color: #eeeeee;
 }
 
-input[type='checkbox']:checked:after{
+#decodificar:checked:after{
     content: "> Decodificando";
     color: #292b36;
 }

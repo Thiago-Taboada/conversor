@@ -1,8 +1,8 @@
 const alfabeto = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 const inputOriginal = document.getElementById('input-original');
 const codificador = document.getElementById('codificador');
-const codificadorbtn = document.getElementById('codificador-btn');
-const decodificarCheck = document.getElementById("decodificar-check")
+const converter = document.getElementById('convert');
+const decodificar = document.getElementById("decodificar")
 const resultado = document.getElementById('resultado');
 const range = document.getElementById('range');
 
@@ -19,7 +19,7 @@ const printChar = (currentLetterIndex, wordArray) => {
         .then( () => {
             const charSemCodificar = wordArray[currentLetterIndex];
 
-            if (decodificarCheck.checked == true) {
+            if (decodificar.checked == true) {
                 spanChar.innerHTML = alfabeto.includes(charSemCodificar) ?
                     alfabeto[(alfabeto.indexOf(charSemCodificar) + (26-parseInt(range.value))) % alfabeto.length] : 
                     charSemCodificar
@@ -54,4 +54,4 @@ const submit = e => {
 }
 
 codificador.onsubmit = submit;
-codificadorbtn.onclick = submit;
+converter.onclick = submit;

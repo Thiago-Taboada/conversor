@@ -1,4 +1,4 @@
-/* GLOBAL */
+/* >>>>>>> GLOBAL <<<<<<< */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 
 * {
@@ -114,7 +114,7 @@ article img{
     background: #343644;
 }
 
-/* INDEX */
+/* >>>>>>> INDEX <<<<<<< */
 .globalIndex{
     height: 100vh;
     min-width: 1080px;
@@ -124,7 +124,7 @@ article img{
 
 
 
-/* TEMPERATURA */
+/* >>>>>>> TEMPERATURA <<<<<<< */
 
 .globalTemperatura{
     height: 100vh;
@@ -167,7 +167,63 @@ article img{
     border-bottom-right-radius: 4px;
 }
 
-/* CESAR */
+/* >>>>>>> MASSA <<<<<<< */
+.globalMassa{
+    height: 100vh;
+    min-width: 1080px;
+    background-color: #3E7A4A;
+    color: white;
+}
+
+.artigoMassa{
+    padding: 150px 50px 50px 50px;
+    height: 120vh;
+    min-width: 1080px;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+#tonelada{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    margin-top: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#kilo{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#grama{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#miligrama{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#libra{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* >>>>>>> CESAR <<<<<<< */
 
 .globalCesar{
     height: 100vh;

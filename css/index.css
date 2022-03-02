@@ -13,7 +13,7 @@ input, button {
 }
 
 header{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 header .menu nav {
@@ -122,7 +122,131 @@ article img{
     color: white;
 }
 
+/* >>>>>>> DISTANCIA <<<<<<< */
+.globalDistancia{
+    height: 100vh;
+    min-width: 1080px;
+    background-color: #7A7957;
+    color: white;
+}
 
+.artigoDistancia{
+    padding: 150px 50px 50px 50px;
+    height: 120vh;
+    min-width: 1080px;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+#MM{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    margin-top: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#CM{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#M{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#KM{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#INCH{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#FT{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* >>>>>>> Tempo <<<<<<< */
+.globalTempo{
+    height: 100vh;
+    min-width: 1080px;
+    background-color: #C179C7;
+    color: white;
+}
+
+.artigoTempo{
+    padding: 150px 50px 50px 50px;
+    height: 120vh;
+    min-width: 1080px;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+#ms{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    margin-top: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#Sec{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#Min{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#Hora{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#Dia{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#WK{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
 
 /* >>>>>>> TEMPERATURA <<<<<<< */
 
@@ -171,7 +295,7 @@ article img{
 .globalMassa{
     height: 100vh;
     min-width: 1080px;
-    background-color: #3E7A4A;
+    background-color: #205F7A;
     color: white;
 }
 
@@ -215,6 +339,119 @@ article img{
 }
 
 #libra{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* >>>>>>> DADOS <<<<<<< */
+.globalDados{
+    height: 100vh;
+    min-width: 1080px;
+    background-color: #3E7A4A;
+    color: white;
+}
+
+.artigoDados{
+    padding: 150px 50px 50px 50px;
+    height: 120vh;
+    min-width: 1080px;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+#bit{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    margin-top: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#B{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#KB{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#MB{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#GB{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#TB{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* >>>>>>> VELOCIDADE <<<<<<<*/
+
+.globalVelocidade{
+    height: 100vh;
+    min-width: 1080px;
+    background-color: #C7C252;
+    color: white;
+}
+
+.artigoVelocidade{
+    padding: 150px 50px 50px 50px;
+    height: 120vh;
+    min-width: 1080px;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+#MS{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+    margin-top: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#MH{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#KmS{
+    background-color: #292b36;
+    width: 540px;
+    padding: 10px;
+    color: #5af7dd;
+}
+
+#KmH{
     background-color: #292b36;
     width: 540px;
     padding: 10px;

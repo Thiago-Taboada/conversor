@@ -1,17 +1,17 @@
-const converter = document.getElementById('convert');
-const clear = document.getElementById('clear');
-const formMassaTon = document.getElementById('formMassaTon');
-const formMassaKg = document.getElementById('formMassaKg');
-const formMassaG = document.getElementById('formMassaG');
-const formMassaMg = document.getElementById('formMassaMg');
-const formMassaLibra = document.getElementById('formMassaLibra');
+const converter = document.getElementById('convert');//id botao converter
+const clear = document.getElementById('clear');//id botao limpar
+const formMassaTon = document.getElementById('formMassaTon');// id do formulario
+const formMassaKg = document.getElementById('formMassaKg');// id do formulario
+const formMassaG = document.getElementById('formMassaG');// id do formulario
+const formMassaMg = document.getElementById('formMassaMg');// id do formulario
+const formMassaLibra = document.getElementById('formMassaLibra');// id do formulario
 
 function massaConvert(){
-    var tonelada = document.getElementById("tonelada").value;
-    var kilo = document.getElementById("kilo").value;
-    var grama = document.getElementById("grama").value;
-    var miligrama = document.getElementById("miligrama").value;
-    var libra = document.getElementById("libra").value;
+    var tonelada = document.getElementById("tonelada").value;// id do input
+    var kilo = document.getElementById("kilo").value;// id do input
+    var grama = document.getElementById("grama").value;// id do input
+    var miligrama = document.getElementById("miligrama").value;// id do input
+    var libra = document.getElementById("libra").value;// id do input
 
     if(isNaN(tonelada) || isNaN(kilo) || isNaN(grama) || isNaN(miligrama) || isNaN(libra)){
         alert("Digite um valor válido!");

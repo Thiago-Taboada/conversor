@@ -42,6 +42,12 @@ header .menu nav li a {
     color: white;
 }
 
+header .menu nav li a.homeico{
+    font-size: 14px;
+    color: white;
+    text-align: right;
+}
+
 header .menu nav li ul{
     display: none;
     position: absolute;
@@ -79,6 +85,15 @@ article h2{
 article img{
     float: left;
     margin-right: 10px;
+}
+
+footer{
+    display: block;
+    background: #292b36;
+    color: #eee;
+    text-align: right;
+    min-width: 100px;
+    padding: 30px 100px;
 }
 
 #convert{
@@ -136,6 +151,10 @@ article img{
     min-width: 1080px;
     background-color: #eeeeee;
     color: #333333;
+}
+
+.artigoDistancia p{
+    font-size: 20px;
 }
 
 #MM{
@@ -199,6 +218,10 @@ article img{
     min-width: 1080px;
     background-color: #eeeeee;
     color: #333333;
+}
+
+.artigoTempo p{
+    font-size: 20px;
 }
 
 #ms{
@@ -265,6 +288,14 @@ article img{
     color: #333333;
 }
 
+.artigoTemperatura .img1Temper{
+    width:400px;
+}
+
+.artigoTemperatura p{
+    font-size: 20px;
+}
+
 #celsius{
     background-color: #292b36;
     width: 540px;
@@ -305,6 +336,10 @@ article img{
     min-width: 1080px;
     background-color: #eeeeee;
     color: #333333;
+}
+
+.artigoMassa p{
+    font-size: 20px;
 }
 
 #tonelada{
@@ -361,6 +396,10 @@ article img{
     min-width: 1080px;
     background-color: #eeeeee;
     color: #333333;
+}
+
+.artigoDados p{
+    font-size: 20px;
 }
 
 #bit{
@@ -427,6 +466,10 @@ article img{
     color: #333333;
 }
 
+.artigoVelocidade p{
+    font-size: 20px;
+}
+
 #MS{
     background-color: #292b36;
     width: 540px;
@@ -475,6 +518,14 @@ article img{
     min-width: 1080px;
     background-color: #eeeeee;
     color: #333333;
+}
+
+.artigoCesar p{
+    font-size: 20px;
+}
+
+.artigoCesar .img1cesar{
+    width: 600px;
 }
 
 #input-original, #resultado {

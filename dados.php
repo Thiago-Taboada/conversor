@@ -3,79 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-    <script src="js/.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="img/rule icon.png">
+    <script src="https://kit.fontawesome.com/b658364985.js" crossorigin="anonymous"></script>
     <title>Conversor Universal</title>
 </head>
 <body>
-    <div class="globalTempo">
+    <div class="globalDados">
 
-        <header>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="distancia.html">Distancia</a></li>
-                        <li><a href="tempo.html">Tempo</a></li>
-                        <li><a href="temperatura.html">Temperatura</a></li>
-                        <li><a href="massa.html">Massa</a></li>
-                        <li><a href="dados.html">Dados</a></li>
-                        <li><a href="velocidade.html">Velocidade</a></li>
-                        <li><a href="#">Texto</a>
-                            <ul>
-                                <li><a href="#">Binario</a>
-                                <li><a href="cesar.html">Cesar</a>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>    
-            </div>
-        </header>
 
+<?php include('template/header.php'); ?>
 
         <table>
             <tr>
-                <td><h1>Tempo.</h1></td>
+                <td><h1>Dados.</h1></td>
             </tr>
             <tr>
                 <td>
-                    <form id="formMS" autocomplete="off">
-                        <input type="text" id="ms" placeholder="Milisegundos" value="">
+                    <form id="formBits" autocomplete="off">
+                        <input type="text" id="bit" placeholder="bit" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formSec" autocomplete="off">
-                        <input type="text" id="Sec" placeholder="Segundos" value="">
+                    <form id="formBytes" autocomplete="off">
+                        <input type="text" id="B" placeholder="Byte" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formMin" autocomplete="off">
-                        <input type="text" id="Min" placeholder="Minutos" value="">
+                    <form id="formKilobytes" autocomplete="off">
+                        <input type="text" id="KB" placeholder="KiloByte" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formHora" autocomplete="off">
-                        <input type="text" id="Hora" placeholder="Horas" value="">
+                    <form id="formMegabytes" autocomplete="off">
+                        <input type="text" id="MB" placeholder="MegaByte" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formDia" autocomplete="off">
-                        <input type="text" id="Dia" placeholder="Dias" value="">
+                    <form id="formGigabytes" autocomplete="off">
+                        <input type="text" id="GB" placeholder="GigaByte" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formWK" autocomplete="off">
-                        <input type="text" id="WK" placeholder="Semanas" value="">
+                    <form id="formTerabytes" autocomplete="off">
+                        <input type="text" id="TB" placeholder="TeraByte" value="">
                     </form>
                 </td>
             </tr>
@@ -85,9 +66,9 @@
                     <button id="clear">Limpar</button>
                 </td>
             </tr>
-          </table>
+        </table>
     </div>
-    <div class="artigoTempo">
+    <div class="artigoDados">
         <article>
             <h2>Lorem Ipsum.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tenetur cupiditate temporibus molestiae ut? Totam iste necessitatibus ad incidunt nobis, inventore, ipsum aliquam omnis mollitia maxime debitis recusandae dolor. Perspiciatis?</p>
@@ -100,6 +81,6 @@
             <br>
             <p>Dolor ex amet nisi sunt irure amet proident eu laborum. Laborum pariatur mollit culpa quis dolore quis aliqua labore labore eu. Anim aliqua et sit officia. Officia adipisicing labore do sit ex sunt dolore sunt dolor cillum enim. Ullamco aliquip voluptate dolore Lorem consequat velit. Ad irure ea minim culpa do nostrud mollit voluptate laboris aliquip in deserunt amet. Laboris proident reprehenderit eu et pariatur amet aliquip est sit.</p>
         </article>
-  </div>
-</body>
-</html>
+    </div>
+
+<?php include('template/footer.php'); ?>

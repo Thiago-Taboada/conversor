@@ -3,72 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-    <script src="js/massa.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="img/rule icon.png">
+    <script src="https://kit.fontawesome.com/b658364985.js" crossorigin="anonymous"></script>
     <title>Conversor Universal</title>
 </head>
 <body>
-    <div class="globalMassa">
+    <div class="globalDistancia">
 
-        <header>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="distancia.html">Distancia</a></li>
-                        <li><a href="tempo.html">Tempo</a></li>
-                        <li><a href="temperatura.html">Temperatura</a></li>
-                        <li><a href="massa.html">Massa</a></li>
-                        <li><a href="dados.html">Dados</a></li>
-                        <li><a href="velocidade.html">Velocidade</a></li>
-                        <li><a href="#">Texto</a>
-                            <ul>
-                                <li><a href="#">Binario</a>
-                                <li><a href="cesar.html">Cesar</a>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>    
-            </div>
-        </header>
 
+<?php include('template/header.php'); ?>
 
         <table>
             <tr>
-                <td><h1>Massa.</h1></td>
+                <td><h1>Distancia.</h1></td>
             </tr>
             <tr>
                 <td>
-                    <form id="formMassaTon" autocomplete="off">
-                        <input type="text" id="tonelada" placeholder="Tonelada" value="">
+                    <form id="formMM" autocomplete="off">
+                        <input type="text" id="MM" placeholder="Milimetros" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formMassaKg" autocomplete="off">
-                        <input type="text" id="kilo" placeholder="Kilograma" value="">
+                    <form id="formCM" autocomplete="off">
+                        <input type="text" id="CM" placeholder="Centimetros" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formMassaG" autocomplete="off">
-                        <input type="text" id="grama" placeholder="Grama" value="">
+                    <form id="formM" autocomplete="off">
+                        <input type="text" id="M" placeholder="Metros" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formMassaMg" autocomplete="off">
-                        <input type="text" id="miligrama" placeholder="Miligrama" value="">
+                    <form id="formKM" autocomplete="off">
+                        <input type="text" id="KM" placeholder="Kilometros" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <form id="formMassaLibra" autocomplete="off">
-                        <input type="text" id="libra" placeholder="Libra" value="">
+                    <form id="formINCH" autocomplete="off">
+                        <input type="text" id="INCH" placeholder="Polegadas" value="">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form id="formFT" autocomplete="off">
+                        <input type="text" id="FT" placeholder="Pés" value="">
                     </form>
                 </td>
             </tr>
@@ -78,9 +66,9 @@
                     <button id="clear">Limpar</button>
                 </td>
             </tr>
-          </table>
+        </table>
     </div>
-    <div class="artigoMassa">
+    <div class="artigoDistancia">
         <article>
             <h2>Lorem Ipsum.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tenetur cupiditate temporibus molestiae ut? Totam iste necessitatibus ad incidunt nobis, inventore, ipsum aliquam omnis mollitia maxime debitis recusandae dolor. Perspiciatis?</p>
@@ -93,6 +81,6 @@
             <br>
             <p>Dolor ex amet nisi sunt irure amet proident eu laborum. Laborum pariatur mollit culpa quis dolore quis aliqua labore labore eu. Anim aliqua et sit officia. Officia adipisicing labore do sit ex sunt dolore sunt dolor cillum enim. Ullamco aliquip voluptate dolore Lorem consequat velit. Ad irure ea minim culpa do nostrud mollit voluptate laboris aliquip in deserunt amet. Laboris proident reprehenderit eu et pariatur amet aliquip est sit.</p>
         </article>
-  </div>
-</body>
-</html>
+    </div>
+
+<?php include('template/footer.php'); ?>

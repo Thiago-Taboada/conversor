@@ -8,6 +8,19 @@
     <script src="https://kit.fontawesome.com/b658364985.js" crossorigin="anonymous"></script>
     <title>Conversor Universal</title>
 </head>
+
+<?php
+if (file_exists('contador.php'))
+$obterArquivo = fopen('contador.php','r+');
+
+else $obterArquivo = fopen('contador.php','w+');
+$lerArquivo = fgets($obterArquivo,20);
+if ($lerArquivo == '')
+$lerArquivo = "0";
+rewind($obterArquivo);
+fputs($obterArquivo,++$lerArquivo);
+fclose($obterArquivo);
+?>
 <body>
     <div class="globalIndex">
 

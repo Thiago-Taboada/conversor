@@ -19,4 +19,19 @@
                     </ul>
                 </nav>    
             </div>
+<?php
+if (file_exists('contador.php'))
+$obterArquivo = fopen('contador.php','r+');
+
+else $obterArquivo = fopen('contador.php','w+');
+$lerArquivo = fgets($obterArquivo,20);
+if ($lerArquivo == '')
+$lerArquivo = "0";
+rewind($obterArquivo);
+fputs($obterArquivo,++$lerArquivo);
+fclose($obterArquivo);
+?>
+            <div class="acessos">
+                <i class="fa-solid fa-eye"></i> Acessos: <?php echo $lerArquivo; ?>
+            </div>
         </header>

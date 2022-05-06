@@ -65,6 +65,11 @@ header .menu nav li a:hover {
     background: #343644;
 }
 
+header .acessos{
+    color: white;
+    margin: 20px;
+}
+
 table{
     display: block;
     width: 600px;
